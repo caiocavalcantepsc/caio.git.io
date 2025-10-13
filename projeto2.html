@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Portfólio de Caio Cavalcante</title>
+    <style>
+        :root {
+            --bg: #240f0f;
+            --card: #0b1220;
+            --accent: #ffffff;
+            --muted: #ffffff;
+            --text: #e6eef8;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: Inter, system-ui, Arial, Helvetica, sans-serif;
+            background: linear-gradient(180deg, #071226 0%, var(--bg) 100%);
+            color: var(--text);
+            -webkit-font-smoothing: antialiased;
+        }
+        .wrap {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .avatar {
+            width: 84px;
+            height: 84px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, var(--accent), #ffffff);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: #ffffff;
+        }
+        h1 {
+            margin: 0;
+            font-size: 1.6rem;
+        }
+        p.lead {
+            margin: 6px 0 0;
+            color: var(--muted);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 18px;
+            margin-top: 20px;
+        }
+        @media (max-width: 800px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 16px;
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(2, 6, 23, 0.6);
+        }
+        .section-title {
+            font-size: 0.95rem;
+            margin: 0 0 8px;
+            color: var(--accent);
+        }
+        ul {
+            padding-left: 18px;
+            margin: 6px 0;
+        }
+        .skills {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .tag {
+            background: rgba(255, 0, 0, 0.03);
+            padding: 6px 10px;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+        .projects .proj {
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
+        }
+        footer {
+            margin-top: 18px;
+            text-align: center;
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+        a.button {
+            display: inline-block;
+            padding: 10px 14px;
+            border-radius: 8px;
+            background: var(--accent);
+            color: #042033;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        form label {
+            display: block;
+            font-size: 0.86rem;
+            margin: 8px 0 6px;
+         }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;">
+        <div class="card">
+            <h1 class="title"><code>Portfólio</code></h1>
+        </div>
+        <hr>
+
+        <p><code>Este é um site pessoal criado com o objetivo de praticar e aperfeiçoar minhas habilidades em programação. Mesmo que duvidem de mim, eu vou aprender, evoluir e conquistar o que quero.</code></p>
+
+        <img src="perfil.jpg" alt="Foto de perfil" width="300" height="300">
+        <h2><code>Meu nome é <abbr title="Caio Cavalcante Pinheiro de Souza Coelho">Caio</abbr>, sou um entusiasta da programação brasileiro.</code></h2>
+
+        <p>Gosto de treinar, estudar, buscar independência financeira e sentir que estou fazendo a diferença no ambiente em que estou.  
+        Costumam dizer que sou disciplinado e tenho facilidade em aprender novos idiomas.  
+        Sou falante nativo de português, fluente em inglês e espanhol. Este site está sendo desenvolvido visando o aprendizado de html e css, para que desta forma ao decorrer do caminho o site seja melhorado e realmente utilizado como prova cabal de capacidade e modelo.</p>
+    </div>
+
+    <hr>
+    <section>
+        <div style="text-align: center;">
+            <div class="card">
+                <h2 class="section-title">Habilidades</h2>
+                <div style="text-align: center;">
+                    <span class="tag">Idiomas</span> 
+                    <span class="tag">Matemática</span> 
+                    <span class="tag">Comunicação</span> 
+                    <span class="tag">Autodidatismo</span> 
+                    <span class="tag">Disciplina</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    <div style="text-align: center;">
+        <h1>Redes e Projetos</h1>
+        <span class="tag">Perfil no <a href="https://www.instagram.com/caio___one/" target="_blank" rel="external">Instagram</a></span> <br>
+        <span class="tag">Outro <a href="index.html" target="_blank" rel="external">Portfólio</a></span>
+    </div>
+
+    <footer>
+        <p>© 2025 Caio Cavalcante — Desenvolvido por mim.</p>
+    </footer>
+</body>
+</html>
