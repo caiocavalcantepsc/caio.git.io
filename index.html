@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Caio Portfólio</title>
+  <title>Portfólio - Caio Cavalcante</title>
   <style>
     :root{--bg:#0f1724;--card:#0b1220;--accent:#7dd3fc;--muted:#94a3b8;--text:#e6eef8}
     *{box-sizing:border-box}
@@ -19,7 +19,7 @@
     .section-title{font-size:0.95rem;margin:0 0 8px;color:var(--accent)}
     ul{padding-left:18px;margin:6px 0}
     .skills{display:flex;gap:8px;flex-wrap:wrap}
-    .tag{background:rgba(255,255,255,0.03);padding:6px 10px;border-radius:999px;font-size:0.85rem;color:var(--muted)}
+    .tag{background:rgba(255, 0, 0, 0.03);padding:6px 10px;border-radius:999px;font-size:0.85rem;color:var(--muted)}
     .projects .proj{border-radius:8px;padding:12px;margin-bottom:10px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));}
     footer{margin-top:18px;text-align:center;color:var(--muted);font-size:0.85rem}
     a.button{display:inline-block;padding:10px 14px;border-radius:8px;background:var(--accent);color:#042033;text-decoration:none;font-weight:600}
@@ -31,9 +31,9 @@
 <body>
   <div class="wrap">
     <header>
-      <div class="avatar">C</div>
+      <div class="avatar"><img src="perfil.jpg" alt="Imagen de yo " width="100" height="100"></div>
       <div>
-        <h1>Caio Estudante / Multilingue</h1>
+        <h1>Caio</h1>
         <p class="lead">Inglês · Español · Português · Matemática, Física, Informática</p>
       </div>
     </header>
@@ -42,61 +42,61 @@
       <main>
         <section class="card">
           <h2 class="section-title">Sobre</h2>
-          <p>Sou estudante. Gosto de aprender idiomas, resolver problemas, e desenvolver projetos. Este site é uma página simples para apresentar habilidades e contatos.</p>
-          <p><strong>Foco agora:</strong> Melhorar habilidades técnicas.</p>
+          <p>Gosto de aprender idiomas, resolver problemas de matemática e física, e desenvolver projetos simples de informática. Este site é uma página simples para apresentar habilidades e contactos.</p>
+          <p><strong>Foco agora:</strong> Melhorar habilidades técnicas, construir portfólio e gerar renda com aulas particulares o serviços técnicos.</p>
         </section>
 
         <section class="card" style="margin-top:12px">
           <h2 class="section-title">Projetos</h2>
           <div class="projects">
             <div class="proj">
-              <strong>Projeto 1 — Mini web app</strong>
-              <p class="lead" style="margin:6px 0 0;color:var(--muted)">Descrição curta do projeto, tecnologias usadas (HTML/CSS/JS) e link para GitHub.</p>
+              <strong>Mini web app</strong>
+              <p class="lead" style="margin:6px 0 0;color:var(--muted)">Funcionalidade e felicidade.</p>
             </div>
             <div class="proj">
-              <strong>Projeto 2 — Material didático</strong>
+              <strong>Material didático</strong>
               <p class="lead" style="margin:6px 0 0;color:var(--muted)">Aulas de matemática e física gravadas e pequenos resumos em PDF.</p>
             </div>
           </div>
         </section>
 
         <section class="card" style="margin-top:12px">
-          <h2 class="section-title">Contacto</h2>
-          <p>Entrada de dados imaginária.</p>
+          <h2 class="section-title">Contato</h2>
+          <p>Deixe seus dados aqui para que possamos entrar em contato.</p>
           <form onsubmit="event.preventDefault();alert('Formulario.');">
-            <label for="name">Caio</label>
-            <input id="name" type="text" placeholder="Caio Cavalcante">
+            <label for="name">Nome</label>
+            <input id="name" type="text" placeholder="Seu nome">
             <label for="email">E‑mail</label>
-            <input id="email" type="email" placeholder="caiop6878@gmail.com">
-            <label for="message">Mensaje</label>
-            <textarea id="message" placeholder="Escreva uma breve mensagem..."></textarea>
-            <div style="margin-top:10px"><a href="#" class="button" onclick="event.preventDefault();alert('Formulario simulado.');">Enviar (simulado)</a></div>
+            <input id="email" type="email" placeholder="seu@exemplo.com">
+            <label for="mensagem">Mensaje</label>
+            <textarea id="mensagem" placeholder="Escreva uma breve mensagem..."></textarea>
+            <div style="margin-top:10px"><a href="#" class="button" onclick="event.preventDefault();alert('Formulario simulado — copia los datos o contacta por redes.');">Enviar (simulado)</a></div>
           </form>
-        </section>
+        </section> <br>
       </main>
 
-      <aside>
+    </div>
+    
+    <section >
         <div class="card">
-          <h3 class="section-title">Habilidades</h3>
+          <h3 class="section-title" >Habilidades</h3>
           <div class="skills">
             <span class="tag">Inglês</span>
-            <span class="tag">Español</span>
+            <span class="tag">Espanhol</span>
             <span class="tag">Português</span>
             <span class="tag">Matemática</span>
             <span class="tag">Física</span>
             <span class="tag">Informática</span>
           </div>
 
-          <h3 class="section-title" style="margin-top:12px">Disponibilidad</h3>
-          <p class="lead">Aulas particulares, trabalhos técnicos locais ou freelance.</p>
+          <h3 class="section-title" style="margin-top:12px">Disponibilidade</h3>
+          <p class="lead">Aulas particulares, trabalhos técnicos e freelance.</p>
+        </div>
+      </section> <br>
 
-          <h3 class="section-title" style="margin-top:12px">Redes</h3>
-        </div>
-        <div class="card" style="margin-top:12px">
-          <h3 class="section-title">Notas</h3>
-        </div>
-      </aside>
-    </div>
+      <div>
+        <span class="card">Para acessar o outro portifólio clique <a href="projeto2.html" rel="external" targe>aqui</a></span>
+      </div>
 
     <footer>
       Toda honra e glória à Deus
@@ -104,4 +104,3 @@
   </div>
 </body>
 </html>
-
